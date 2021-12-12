@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class AboutUs extends StatelessWidget {
-  const AboutUs({Key? key}) : super(key: key);
+class AppInfo extends StatelessWidget {
+  const AppInfo({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +18,7 @@ class AboutUs extends StatelessWidget {
         backgroundColor: Colors.transparent,
         elevation: 0.0,
         title: Text(
-          'About Us',
+          'App info',
           style: TextStyle(
               fontFamily: 'Montserrat', fontSize: 25.0, color: Colors.white),
               
@@ -29,8 +29,8 @@ class AboutUs extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text('Makanan Sehat', style: TextStyle(
-              fontFamily: 'Montserrat', fontSize: 25.0, color: Colors.white, fontWeight: FontWeight.bold),),
+            Text('Food Court', style: TextStyle(
+              fontFamily: 'Montserrat', fontSize: 30.0, color: Colors.white, fontWeight: FontWeight.bold),),
             Text('Version 1.0.0', style: TextStyle(
               fontFamily: 'Montserrat', fontSize: 20.0, color: Colors.white),),
             SizedBox(height: 20.0,),
@@ -40,7 +40,7 @@ class AboutUs extends StatelessWidget {
                     AssetImage("assets/images/avatar/foodanddrink.png"),
                 backgroundColor: Colors.white,),
             SizedBox(height: 20.0,),
-            Text('© 2019-2021 Makanan Sehat Inc.', style: TextStyle(
+            Text('© 2019-2021 Food Court Inc.', style: TextStyle(
               fontFamily: 'Montserrat', fontSize: 15.0, color: Colors.white, fontWeight: FontWeight.bold),),
           ],
         ),

@@ -1,8 +1,6 @@
-
-
 import 'package:flutter/material.dart';
 import 'package:login_page_1/main.dart';
-import 'package:login_page_1/screens/about_us.dart';
+import 'package:login_page_1/screens/app_info.dart';
 
 class ProfilePage extends StatelessWidget {
   const ProfilePage({Key? key}) : super(key: key);
@@ -86,11 +84,11 @@ class ProfilePage extends StatelessWidget {
                         onPressed: () {
                           Navigator.push(context,
                               MaterialPageRoute(builder: (context) {
-                            return AboutUs();
+                            return AppInfo();
                           }));
                         },
                         child: Text(
-                          'About Us',
+                          'App info',
                           style: TextStyle(
                               fontFamily: 'Montserrat', fontSize: 15.0),
                         ))
